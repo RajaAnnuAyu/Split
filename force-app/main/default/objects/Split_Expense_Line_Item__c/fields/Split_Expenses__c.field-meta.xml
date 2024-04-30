@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Split_Expenses__c</fullName>
+    <externalId>false</externalId>
+    <label>Split Expense</label>
+    <referenceTo>Split_Expense__c</referenceTo>
+    <relationshipLabel>Split Expense Line Items</relationshipLabel>
+    <relationshipName>Split_Expense_Line_Items</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
